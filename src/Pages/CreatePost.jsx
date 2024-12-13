@@ -1,6 +1,6 @@
 import React,{useState,useContext} from 'react'
 import { storeContext } from '../ContextAPI'
-import '../CSS/createPost.css'
+import '../CSS/createpost.css'
 
 const CreatePost = () => {
     const {feedData,setFeedData} = useContext(storeContext)
