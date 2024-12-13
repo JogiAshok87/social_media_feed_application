@@ -1,0 +1,200 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+button{
+  cursor: pointer;
+}
+html,body{
+  background-color: #fff;
+  color:#000;
+
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+.grid-wrapper > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-wrapper > div > img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+
+
+}
+.grid-wrapper{
+  display: grid;
+  grid-gap:10px;
+  grid-template-columns:repeat(auto-fit,minmax(100px,3fr));
+  grid-auto-rows:3;
+}
+.grid-wrapper .wide{
+  grid-column:span 2;
+
+}
+.grid-row .tall{
+  grid-row: span 2;
+}
+.grid-wrapper .big{
+  grid-column:span 2;
+  grid-row: span 2;
+
+}
+.bg-Login{
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index:5;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding:50px 20px;
+  
+}
+.login-btn{
+  display: flex;
+  justify-content: center;
+align-items: center;
+gap:10px;
+border: 1px solid #000;
+background-color: #000;
+color:#fff;
+border-radius: 10px;
+padding: 10px;
+}
+/* h1,p{
+  color:#000;
+} */
+
+.bg-Home{
+  padding:20px;
+  position: relative;
+}
+
+.userProfile{
+  display: flex;
+  align-items: center;
+
+}
+.userProfile > div{
+  padding-left:7px;
+}
+.feed-bg{
+  padding:40px 10px;
+}
+.posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  gap:40px;
+}
+.feedProfile_pic{
+  border-radius: 50%;
+  height:50px;
+  width: 50px;
+  object-fit: cover;
+}
+.feed-card{
+  background-color:#f7ebff;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.feed-card > p{
+  padding:10px 0px;
+}
+.feed-card > h4{
+  color:#4c95ff;
+}
+.post-img{
+  max-height:250px;
+  height:auto;
+  width:100%;
+  object-fit: cover;
+  border-radius: 12px;
+  padding:5px 0px;
+
+}
+.share-btn{
+  display:flex;
+  background-color:#e6daed;
+}
+.feed-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.createPost-icon{
+  position: fixed;
+  bottom: 100px;
+  right: 15px;
+  z-index: 2;
+  color:#fff;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
+
+

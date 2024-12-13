@@ -1,0 +1,27 @@
+.CreatePost-bg{
+    padding:10px;
+    height: 100vh;
+
+}
+.CreatePost-bg h1{
+    font-size:20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+form{
+    border: 1px solid #ccc;
+    padding:5px;
+}
+form > div > input{
+    padding:7px;
+}
+form > div{
+    display: flex;
+    flex-direction: column;
+    margin:10px auto;
+    gap:5px;
+}
+.post-submit-btn{
+    background-color: bisque;
+    
+}
