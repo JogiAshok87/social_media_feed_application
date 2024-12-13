@@ -67,7 +67,7 @@ const Login = () => {
 
     }
   return (
-    <div>
+    <div className='login-page-bg'>
         <div className='grid-wrapper'>
             <div>
                 <img src="image1.png"/>
